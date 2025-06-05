@@ -8,7 +8,7 @@ le_airline = joblib.load("le_airline.pkl")
 le_airport_from = joblib.load("le_airport_from.pkl")
 le_airport_to = joblib.load("le_airport_to.pkl")
 
-st.set_page_config(page_title="Flight Delay Predictor", page_icon="🛫")
+st.set_page_config(page_title="Ranjan's Flight Delay Predictor", page_icon="🛫")
 st.title("🛫 Flight Delay Prediction App")
 st.write("Fill in the flight details to predict whether your flight will be delayed.")
 
